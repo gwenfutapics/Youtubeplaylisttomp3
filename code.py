@@ -10,7 +10,7 @@ except:
     print("Invalid URL")
     exit()
 
-download_directory = "D:/mp4"
+download_directory = "D:/mp4"#change directory corresponding to you
 output_directory = "D:/mp3"
 
 if not os.path.exists(download_directory):
